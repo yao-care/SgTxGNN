@@ -17,7 +17,7 @@ permalink: /news/arthritis/
 
 ---
 
-### [Hydration, regular sleep, gentle exercise: Practical ways to manage hot flushes and night sweats](https://www.straitstimes.com/singapore/health/practical-ways-manage-hot-flushes-menopause-astellas-pharma)
+### [Hydration, regular sleep, exercise: Simple ways to manage menopause](https://www.straitstimes.com/singapore/health/practical-ways-manage-hot-flushes-menopause-astellas-pharma)
 
 2026-03-12
 
