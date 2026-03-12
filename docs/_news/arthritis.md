@@ -33,7 +33,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-
 
 ---
 
-### [870 psychologists enrol in professional body as Singapore plans for mandatory registration](https://www.straitstimes.com/singapore/health/870-psychologists-enrolled-in-professional-body-as-spore-plans-for-mandatory-registration)
+### [870 psychologists enrol in professional body as Singapore plans mandatory registration](https://www.straitstimes.com/singapore/health/870-psychologists-enrolled-in-professional-body-as-spore-plans-for-mandatory-registration)
 
 2026-03-12
 
