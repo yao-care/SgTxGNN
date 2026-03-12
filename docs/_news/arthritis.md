@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**5 articles** related to arthritis.
+**6 articles** related to arthritis.
 
 ---
 
@@ -30,6 +30,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/practical-
 2026-03-12
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-revises-healthcare-ai-guidelines-attains-who-top-rating-for-medical-device-regulation)
+
+---
+
+### [870 psychologists enrol in professional body as Singapore plans for mandatory registration](https://www.straitstimes.com/singapore/health/870-psychologists-enrolled-in-professional-body-as-spore-plans-for-mandatory-registration)
+
+2026-03-12
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/870-psychologists-enrolled-in-professional-body-as-spore-plans-for-mandatory-registration)
 
 ---
 
