@@ -10,7 +10,7 @@ image: /assets/images/og-default.png
 # Drug Repurposing: From Data to Evidence
 
 <p class="key-answer" data-question="What is SgTxGNN Drug Repurposing Reports?">
-<strong>SgTxGNN</strong> is a drug repurposing prediction platform based on Harvard's TxGNN model. We use AI to predict <strong>31,543</strong> drug repurposing candidates and provide evidence-based validation reports for <strong>745</strong> Singapore HSA-approved medications.
+<strong>SgTxGNN</strong> is a drug repurposing prediction platform based on Harvard's TxGNN model. We use AI to predict <strong>18,069</strong> drug repurposing candidates and provide evidence-based validation reports for <strong>745</strong> Singapore HSA-approved medications.
 </p>
 
 <div class="key-takeaway">
@@ -119,7 +119,7 @@ Most drug repurposing tools only provide "possibly effective" scores. SgTxGNN in
     <div class="stat-label">Drugs Analyzed</div>
   </div>
   <div class="stat-card">
-    <div class="stat-number">31,543</div>
+    <div class="stat-number">18,069</div>
     <div class="stat-label">Repurposing Candidates</div>
   </div>
   <div class="stat-card">

@@ -71,7 +71,7 @@ def check_and_run():
         print("✗ DGL 未安裝")
 
     try:
-        import txgnn
+        import sgtxgnn
         print("✓ TxGNN")
     except ImportError:
         missing.append("TxGNN")

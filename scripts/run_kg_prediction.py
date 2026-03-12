@@ -26,13 +26,13 @@ from typing import Dict, Set, List, Tuple
 import pandas as pd
 import yaml
 
-from txgnn.data.loader import load_fda_drugs, filter_active_drugs
-from txgnn.mapping.drugbank_mapper import (
+from sgtxgnn.data.loader import load_fda_drugs, filter_active_drugs
+from sgtxgnn.mapping.drugbank_mapper import (
     load_drugbank_vocab,
     map_fda_drugs_to_drugbank,
     get_mapping_stats,
 )
-from txgnn.mapping.disease_mapper import (
+from sgtxgnn.mapping.disease_mapper import (
     load_disease_vocab,
     map_fda_drugs_to_diseases,
     get_mapping_stats as get_disease_mapping_stats,
