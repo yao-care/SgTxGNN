@@ -17,14 +17,6 @@ permalink: /news/arthritis/
 
 ---
 
-### [Hydration, regular sleep, exercise: Simple ways to manage menopause](https://www.straitstimes.com/singapore/health/practical-ways-manage-hot-flushes-menopause-astellas-pharma)
-
-2026-03-14
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/practical-ways-manage-hot-flushes-menopause-astellas-pharma)
-
----
-
 ### [Singapore revises healthcare AI guidelines, attains WHO top rating for medical device regulation](https://www.straitstimes.com/singapore/health/singapore-revises-healthcare-ai-guidelines-attains-who-top-rating-for-medical-device-regulation)
 
 2026-03-14
@@ -38,6 +30,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-
 2026-03-14
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/870-psychologists-enrolled-in-professional-body-as-spore-plans-for-mandatory-registration)
+
+---
+
+### [Mother of two suffers falls, double vision and memory loss due to rare condition](https://www.straitstimes.com/singapore/health/mother-of-two-suffers-falls-double-vision-and-memory-loss-due-to-rare-condition)
+
+2026-03-14
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/mother-of-two-suffers-falls-double-vision-and-memory-loss-due-to-rare-condition)
 
 ---
 
