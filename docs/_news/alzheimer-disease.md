@@ -17,7 +17,7 @@ permalink: /news/alzheimer-disease/
 
 ---
 
-### [Mother of two suffers falls, double vision and memory loss due to rare condition](https://www.straitstimes.com/singapore/health/mother-of-two-suffers-falls-double-vision-and-memory-loss-due-to-rare-condition)
+### [Mother of two suffered falls, double vision and memory loss because of rare condition](https://www.straitstimes.com/singapore/health/mother-of-two-suffers-falls-double-vision-and-memory-loss-due-to-rare-condition)
 
 2026-03-14
 

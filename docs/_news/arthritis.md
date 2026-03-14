@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
+**8 articles** related to arthritis.
 
 ---
 
@@ -33,11 +33,19 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/870-psycho
 
 ---
 
-### [Mother of two suffers falls, double vision and memory loss due to rare condition](https://www.straitstimes.com/singapore/health/mother-of-two-suffers-falls-double-vision-and-memory-loss-due-to-rare-condition)
+### [Mother of two suffered falls, double vision and memory loss because of rare condition](https://www.straitstimes.com/singapore/health/mother-of-two-suffers-falls-double-vision-and-memory-loss-due-to-rare-condition)
 
 2026-03-14
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/mother-of-two-suffers-falls-double-vision-and-memory-loss-due-to-rare-condition)
+
+---
+
+### [Cracking the code: Diagnosing rare medical conditions can take up to 15 years](https://www.straitstimes.com/singapore/health/cracking-the-code-diagnosing-rare-medical-conditions-can-take-up-to-15-years)
+
+2026-03-14
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/cracking-the-code-diagnosing-rare-medical-conditions-can-take-up-to-15-years)
 
 ---
 
