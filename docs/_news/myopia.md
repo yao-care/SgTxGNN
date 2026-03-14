@@ -13,15 +13,7 @@ permalink: /news/myopia/
 
 ---
 
-**3 articles** related to myopia.
-
----
-
-### [More younger adults in Singapore developing glaucoma, likely because of untreated myopia](https://www.straitstimes.com/singapore/health/more-younger-adults-develop-glaucoma-because-of-untreated-myopia)
-
-2026-03-14
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/more-younger-adults-develop-glaucoma-because-of-untreated-myopia)
+**2 articles** related to myopia.
 
 ---
 
