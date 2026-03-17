@@ -19,7 +19,7 @@ permalink: /news/cancer/
 
 ### [Breast cancer deaths fall in S’pore despite more cases, thanks to earlier diagnoses and better treatment](https://www.straitstimes.com/singapore/health/breast-cancer-deaths-in-spore-down-despite-more-cases-due-to-earlier-diagnoses-and-improved)
 
-2026-03-16
+2026-03-17
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/breast-cancer-deaths-in-spore-down-despite-more-cases-due-to-earlier-diagnoses-and-improved)
 
