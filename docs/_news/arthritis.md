@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**10 articles** related to arthritis.
+**11 articles** related to arthritis.
 
 ---
 
@@ -62,6 +62,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/over-20-do
 2026-03-18
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/reviewing-your-health-insurance-medishield-life-integrated-shield-plans-ip-riders-explained-lia)
+
+---
+
+### [Alexandra Hospital transforms Parkinson’s care with bi-monthly clinic](https://www.straitstimes.com/singapore/health/alexandra-hospital-transforms-parkinsons-care-with-bi-monthly-clinic-cafe)
+
+2026-03-18
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/alexandra-hospital-transforms-parkinsons-care-with-bi-monthly-clinic-cafe)
 
 ---
 
