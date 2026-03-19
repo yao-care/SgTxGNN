@@ -19,7 +19,7 @@ permalink: /news/glaucoma/
 
 ### [Myopia now, glaucoma later? The hidden link explained and how to reduce your risk](https://www.channelnewsasia.com/wellness/glaucoma-risk-lasik-eye-implants-5948976)
 
-2026-03-18
+2026-03-19
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/glaucoma-risk-lasik-eye-implants-5948976)
 
