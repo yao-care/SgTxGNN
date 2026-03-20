@@ -17,14 +17,6 @@ permalink: /news/arthritis/
 
 ---
 
-### [Singapore revises healthcare AI guidelines, attains WHO top rating for medical device regulation](https://www.straitstimes.com/singapore/health/singapore-revises-healthcare-ai-guidelines-attains-who-top-rating-for-medical-device-regulation)
-
-2026-03-20
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-revises-healthcare-ai-guidelines-attains-who-top-rating-for-medical-device-regulation)
-
----
-
 ### [870 psychologists enrol in professional body as Singapore plans mandatory registration](https://www.straitstimes.com/singapore/health/870-psychologists-enrolled-in-professional-body-as-spore-plans-for-mandatory-registration)
 
 2026-03-20
@@ -70,6 +62,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/reviewing-
 2026-03-20
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/alexandra-hospital-transforms-parkinsons-care-with-bi-monthly-clinic-cafe)
+
+---
+
+### [Looking towards gene therapy to give baby Ginny a normal life](https://www.straitstimes.com/singapore/health/looking-towards-gene-therapy-to-give-baby-ginny-a-normal-life)
+
+2026-03-20
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/looking-towards-gene-therapy-to-give-baby-ginny-a-normal-life)
 
 ---
 
