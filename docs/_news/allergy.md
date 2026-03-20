@@ -19,7 +19,7 @@ permalink: /news/allergy/
 
 ### [MOH’s plans to provide more support for eczema welcomed by patients](https://www.straitstimes.com/singapore/health/mohs-plans-to-provide-more-support-for-eczema-welcomed-by-patients)
 
-2026-03-19
+2026-03-20
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/mohs-plans-to-provide-more-support-for-eczema-welcomed-by-patients)
 
