@@ -17,14 +17,6 @@ permalink: /news/arthritis/
 
 ---
 
-### [870 psychologists enrol in professional body as Singapore plans mandatory registration](https://www.straitstimes.com/singapore/health/870-psychologists-enrolled-in-professional-body-as-spore-plans-for-mandatory-registration)
-
-2026-03-21
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/870-psychologists-enrolled-in-professional-body-as-spore-plans-for-mandatory-registration)
-
----
-
 ### [Mother of two suffered falls, double vision and memory loss because of rare condition](https://www.straitstimes.com/singapore/health/mother-of-two-suffers-falls-double-vision-and-memory-loss-due-to-rare-condition)
 
 2026-03-21
@@ -70,6 +62,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/alexandra-
 2026-03-21
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/looking-towards-gene-therapy-to-give-baby-ginny-a-normal-life)
+
+---
+
+### [Women welcome MOH move to screen for family cancer history, have insurance cover preventive surgery](https://www.straitstimes.com/singapore/health/women-welcome-mohs-move-to-screen-for-family-history-of-cancer-have-insurance-cover-preventive)
+
+2026-03-21
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/women-welcome-mohs-move-to-screen-for-family-history-of-cancer-have-insurance-cover-preventive)
 
 ---
 
