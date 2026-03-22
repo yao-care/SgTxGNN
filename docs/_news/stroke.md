@@ -19,7 +19,7 @@ permalink: /news/stroke/
 
 ### [Over 20 doctors and dentists caught practising without valid credentials between 2023 and 2025](https://www.straitstimes.com/singapore/health/over-20-doctors-and-dentists-caught-practising-without-valid-credentials-between-2023-and-2025)
 
-2026-03-21
+2026-03-22
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/over-20-doctors-and-dentists-caught-practising-without-valid-credentials-between-2023-and-2025)
 
