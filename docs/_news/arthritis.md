@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**10 articles** related to arthritis.
-
----
-
-### [Cracking the code: Diagnosing rare medical conditions can take up to 15 years](https://www.straitstimes.com/singapore/health/cracking-the-code-diagnosing-rare-medical-conditions-can-take-up-to-15-years)
-
-2026-03-23
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/cracking-the-code-diagnosing-rare-medical-conditions-can-take-up-to-15-years)
+**9 articles** related to arthritis.
 
 ---
 
