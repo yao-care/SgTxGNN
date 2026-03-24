@@ -220,7 +220,7 @@ def main():
 
     # Fallback to KG-only predictions if unified not available
     if not candidates_path.exists():
-        candidates_path = base_dir / "data" / "processed" / "repurposing_candidates.csv"
+        candidates_path = base_dir / "data" / "processed" / "repurposing_candidates.csv.gz"
         print(f"   Warning: unified_predictions.csv not found, using KG predictions only")
 
     if not candidates_path.exists():
