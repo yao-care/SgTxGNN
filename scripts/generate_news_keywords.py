@@ -215,7 +215,7 @@ def main():
 
     # Extract from candidates
     print("2. Extracting from repurposing candidates...")
-    candidates_path = data_dir / "processed" / "repurposing_candidates.csv"
+    candidates_path = data_dir / "processed" / "repurposing_candidates.csv.gz"
     drugs, indications = extract_keywords_from_candidates(candidates_path)
     print(f"   Found {len(drugs)} unique drugs")
     print(f"   Found {len(indications)} unique indications")

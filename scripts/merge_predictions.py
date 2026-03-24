@@ -90,7 +90,7 @@ def main():
 
     # 2. 載入 KG 預測（靶點相似性方法）
     print("步驟 2: 載入 KG 預測...")
-    kg_path = base_dir / "data" / "processed" / "repurposing_candidates.csv"
+    kg_path = base_dir / "data" / "processed" / "repurposing_candidates.csv.gz"
     kg_results = []
 
     if kg_path.exists():

@@ -133,7 +133,7 @@ def check_and_run():
     try:
         result = run_taiwan_drug_prediction(
             drug_mapping_path=drug_mapping_path,
-            output_path=base_dir / "data" / "processed" / "txgnn_dl_predictions.csv",
+            output_path=base_dir / "data" / "processed" / "txgnn_dl_predictions.csv.gz",
             min_score=0.5,  # 只保留分數 > 0.5 的預測
             top_k_per_drug=50,  # 每個藥物保留前 50 個疾病
         )
