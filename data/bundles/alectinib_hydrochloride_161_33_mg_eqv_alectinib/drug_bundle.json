@@ -1,0 +1,56 @@
+{
+  "drug": {
+    "inn": "ALECTINIB HYDROCHLORIDE 161.33 MG EQV. ALECTINIB",
+    "drugbank_id": null,
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": false,
+    "drugbank_id": null,
+    "message": "Drug 'ALECTINIB HYDROCHLORIDE 161.33 MG EQV. ALECTINIB' not found in DrugBank vocabulary"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "ALECTINIB HYDROCHLORIDE 161.33 MG EQV. ALECTINIB"
+      },
+      "queried_at": "2026-03-26T14:27:12.787042",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "ALECTINIB HYDROCHLORIDE 161.33 MG EQV. ALECTINIB"
+      },
+      "queried_at": "2026-03-26T14:27:12.816819",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.99,
+    "indications_found": 0,
+    "created_at": "2026-03-26T14:27:12.817495"
+  }
+}

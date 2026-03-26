@@ -1,0 +1,56 @@
+{
+  "drug": {
+    "inn": "CEFEPIME HYDROCHLORIDE 2378MG EQV. CEFEPIME",
+    "drugbank_id": null,
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": false,
+    "drugbank_id": null,
+    "message": "Drug 'CEFEPIME HYDROCHLORIDE 2378MG EQV. CEFEPIME' not found in DrugBank vocabulary"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "CEFEPIME HYDROCHLORIDE 2378MG EQV. CEFEPIME"
+      },
+      "queried_at": "2026-03-26T14:27:28.889972",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "CEFEPIME HYDROCHLORIDE 2378MG EQV. CEFEPIME"
+      },
+      "queried_at": "2026-03-26T14:27:28.925069",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.99,
+    "indications_found": 0,
+    "created_at": "2026-03-26T14:27:28.925824"
+  }
+}
