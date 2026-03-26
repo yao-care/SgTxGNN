@@ -25,7 +25,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/over-20-do
 
 ---
 
-### [Reviewing your health insurance: MediShield Life, Integrated Shield Plans and IP riders explained](https://www.straitstimes.com/singapore/health/reviewing-your-health-insurance-medishield-life-integrated-shield-plans-ip-riders-explained-lia)
+### [The health insurance review every S'porean needs to do now](https://www.straitstimes.com/singapore/health/reviewing-your-health-insurance-medishield-life-integrated-shield-plans-ip-riders-explained-lia)
 
 2026-03-26
 
