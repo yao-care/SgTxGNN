@@ -19,7 +19,7 @@ permalink: /news/arthritis/
 
 ### [Over 20 doctors and dentists caught practising without valid credentials between 2023 and 2025](https://www.straitstimes.com/singapore/health/over-20-doctors-and-dentists-caught-practising-without-valid-credentials-between-2023-and-2025)
 
-2026-03-25
+2026-03-26
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/over-20-doctors-and-dentists-caught-practising-without-valid-credentials-between-2023-and-2025)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/over-20-do
 
 ### [Reviewing your health insurance: MediShield Life, Integrated Shield Plans and IP riders explained](https://www.straitstimes.com/singapore/health/reviewing-your-health-insurance-medishield-life-integrated-shield-plans-ip-riders-explained-lia)
 
-2026-03-25
+2026-03-26
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/reviewing-your-health-insurance-medishield-life-integrated-shield-plans-ip-riders-explained-lia)
 
@@ -35,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/reviewing-
 
 ### [Alexandra Hospital transforms Parkinson’s care with bi-monthly clinic](https://www.straitstimes.com/singapore/health/alexandra-hospital-transforms-parkinsons-care-with-bi-monthly-clinic-cafe)
 
-2026-03-25
+2026-03-26
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/alexandra-hospital-transforms-parkinsons-care-with-bi-monthly-clinic-cafe)
 
@@ -43,7 +43,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/alexandra-
 
 ### [Looking towards gene therapy to give baby Ginny a normal life](https://www.straitstimes.com/singapore/health/looking-towards-gene-therapy-to-give-baby-ginny-a-normal-life)
 
-2026-03-25
+2026-03-26
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/looking-towards-gene-therapy-to-give-baby-ginny-a-normal-life)
 
@@ -51,7 +51,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/looking-to
 
 ### [Women welcome MOH move to screen for family cancer history, have insurance cover preventive surgery](https://www.straitstimes.com/singapore/health/women-welcome-mohs-move-to-screen-for-family-history-of-cancer-have-insurance-cover-preventive)
 
-2026-03-25
+2026-03-26
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/women-welcome-mohs-move-to-screen-for-family-history-of-cancer-have-insurance-cover-preventive)
 
@@ -59,7 +59,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/women-welc
 
 ### [Can pregnancy damage your teeth? What food cravings, morning sickness and hormones do to your oral health](https://www.channelnewsasia.com/women/pregnancy-oral-health-teeth-gums-5939506)
 
-2026-03-25
+2026-03-26
 
 Source: [CNA](https://www.channelnewsasia.com/women/pregnancy-oral-health-teeth-gums-5939506)
 
@@ -67,7 +67,7 @@ Source: [CNA](https://www.channelnewsasia.com/women/pregnancy-oral-health-teeth-
 
 ### [Commentary: Strength training may be the key to healthy ageing](https://www.channelnewsasia.com/commentary/strength-training-healthy-ageing-exercise-routine-5976751)
 
-2026-03-25
+2026-03-26
 
 Source: [CNA](https://www.channelnewsasia.com/commentary/strength-training-healthy-ageing-exercise-routine-5976751)
 
@@ -75,7 +75,7 @@ Source: [CNA](https://www.channelnewsasia.com/commentary/strength-training-healt
 
 ### [TikTok’s new favourite drink is hot water – is it just basic hydration or something else?](https://www.channelnewsasia.com/wellness/health-benefits-hot-water-tiktok-5971671)
 
-2026-03-25
+2026-03-26
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/health-benefits-hot-water-tiktok-5971671)
 
@@ -83,7 +83,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/health-benefits-hot-water
 
 ### [Super-agers' brains have a special ability tied to sharp memory, new study suggests](https://www.channelnewsasia.com/wellness/super-agers-brains-neurons-5965341)
 
-2026-03-25
+2026-03-26
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/super-agers-brains-neurons-5965341)
 
