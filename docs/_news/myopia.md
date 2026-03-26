@@ -17,7 +17,7 @@ permalink: /news/myopia/
 
 ---
 
-### [Ditch the contacts and glasses: How vision correction surgery for myopia has evolved beyond Lasik](https://www.straitstimes.com/singapore/health/how-vision-correction-surgery-for-myopia-has-evolved-beyond-lasik-dr-natasha-lim)
+### [Ditch the glasses and contacts: More surgery options to fix your myopia](https://www.straitstimes.com/singapore/health/how-vision-correction-surgery-for-myopia-has-evolved-beyond-lasik-dr-natasha-lim)
 
 2026-03-26
 
