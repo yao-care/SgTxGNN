@@ -19,7 +19,7 @@ permalink: /news/depression/
 
 ### [Over 630 GPs in Singapore now part of scheme that empowers them to treat mental health](https://www.straitstimes.com/singapore/health/over-630-gps-in-singapore-now-part-of-scheme-that-empowers-them-to-treat-mental-health)
 
-2026-03-26
+2026-03-27
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/over-630-gps-in-singapore-now-part-of-scheme-that-empowers-them-to-treat-mental-health)
 
