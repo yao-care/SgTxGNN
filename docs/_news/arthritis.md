@@ -25,14 +25,6 @@ Source: [TODAY](https://www.todayonline.com/singapore/lawrence-wong-hong-kong-jo
 
 ---
 
-### [The health insurance review every S'porean needs to do now](https://www.straitstimes.com/singapore/health/reviewing-your-health-insurance-medishield-life-integrated-shield-plans-ip-riders-explained-lia)
-
-2026-03-27
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/reviewing-your-health-insurance-medishield-life-integrated-shield-plans-ip-riders-explained-lia)
-
----
-
 ### [Alexandra Hospital transforms Parkinson’s care with bi-monthly clinic](https://www.straitstimes.com/singapore/health/alexandra-hospital-transforms-parkinsons-care-with-bi-monthly-clinic-cafe)
 
 2026-03-27
@@ -54,6 +46,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/looking-to
 2026-03-27
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/women-welcome-mohs-move-to-screen-for-family-history-of-cancer-have-insurance-cover-preventive)
+
+---
+
+### [NUH living-donor kidney transplant patients survive an average of 31 years, beating global norms](https://www.straitstimes.com/singapore/health/nuh-living-donor-kidney-transplant-patients-survive-an-average-of-31-years-beating-global-norms)
+
+2026-03-27
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/nuh-living-donor-kidney-transplant-patients-survive-an-average-of-31-years-beating-global-norms)
 
 ---
 
