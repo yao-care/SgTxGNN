@@ -1,27 +1,19 @@
 ---
 layout: default
-title: "allergy News"
+title: "hiv News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to allergy"
-permalink: /news/allergy/
+description: "Health news related to hiv"
+permalink: /news/hiv/
 ---
 
-# allergy Related News
+# hiv Related News
 
 [← Back to News Overview]({{ '/news/' | relative_url }})
 
 ---
 
-**2 articles** related to allergy.
-
----
-
-### [MOH’s plans to provide more support for eczema welcomed by patients](https://www.straitstimes.com/singapore/health/mohs-plans-to-provide-more-support-for-eczema-welcomed-by-patients)
-
-2026-03-27
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/mohs-plans-to-provide-more-support-for-eczema-welcomed-by-patients)
+**1 articles** related to hiv.
 
 ---
 

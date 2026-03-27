@@ -19,7 +19,7 @@ permalink: /news/cancer/
 
 ### [Women welcome MOH move to screen for family cancer history, have insurance cover preventive surgery](https://www.straitstimes.com/singapore/health/women-welcome-mohs-move-to-screen-for-family-history-of-cancer-have-insurance-cover-preventive)
 
-2026-03-26
+2026-03-27
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/women-welcome-mohs-move-to-screen-for-family-history-of-cancer-have-insurance-cover-preventive)
 
