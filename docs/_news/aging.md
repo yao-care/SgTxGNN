@@ -13,7 +13,7 @@ permalink: /news/aging/
 
 ---
 
-**2 articles** related to aging.
+**3 articles** related to aging.
 
 ---
 
@@ -30,6 +30,14 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/mitochondria-longevity-he
 2026-03-27
 
 Source: [CNA](https://www.channelnewsasia.com/commentary/strength-training-healthy-ageing-exercise-routine-5976751)
+
+---
+
+### [In the land of plenty, elderly malnutrition is rising in Singapore – and it’s not just about access to food](https://www.channelnewsasia.com/today/big-read/malnutrition-seniors-elderly-diet-health-changes-nutrition-6018116)
+
+2026-03-27
+
+Source: [CNA](https://www.channelnewsasia.com/today/big-read/malnutrition-seniors-elderly-diet-health-changes-nutrition-6018116)
 
 ---
 
