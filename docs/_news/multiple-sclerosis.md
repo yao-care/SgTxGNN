@@ -13,7 +13,7 @@ permalink: /news/multiple-sclerosis/
 
 ---
 
-**1 articles** related to multiple sclerosis.
+**2 articles** related to multiple sclerosis.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/multiple-sclerosis/
 2026-03-27
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/alexandra-hospital-transforms-parkinsons-care-with-bi-monthly-clinic-cafe)
+
+---
+
+### [NUH living-donor kidney transplant patients survive an average of 31 years, beating global norms](https://www.straitstimes.com/singapore/health/nuh-living-donor-kidney-transplant-patients-survive-an-average-of-31-years-beating-global-norms)
+
+2026-03-27
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/nuh-living-donor-kidney-transplant-patients-survive-an-average-of-31-years-beating-global-norms)
 
 ---
 
