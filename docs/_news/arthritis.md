@@ -13,7 +13,15 @@ permalink: /news/arthritis/
 
 ---
 
-**8 articles** related to arthritis.
+**9 articles** related to arthritis.
+
+---
+
+### [Healthy competition between Singapore and Hong Kong benefits global trade, says PM Wong](https://www.todayonline.com/singapore/lawrence-wong-hong-kong-john-lee-free-trade-competition-developments-6020626)
+
+2026-03-27
+
+Source: [TODAY](https://www.todayonline.com/singapore/lawrence-wong-hong-kong-john-lee-free-trade-competition-developments-6020626)
 
 ---
 
