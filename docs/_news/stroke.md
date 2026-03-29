@@ -19,7 +19,7 @@ permalink: /news/stroke/
 
 ### [Singapore rolls out $37.9m initiative to help people age well with technology](https://www.straitstimes.com/singapore/health/singapore-rolls-out-37-9m-initiative-to-help-people-age-well-with-technology)
 
-2026-03-28
+2026-03-29
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-rolls-out-37-9m-initiative-to-help-people-age-well-with-technology)
 

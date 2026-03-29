@@ -19,7 +19,7 @@ permalink: /news/allergy/
 
 ### [MOH’s plans to provide more support for eczema welcomed by patients](https://www.straitstimes.com/singapore/health/mohs-plans-to-provide-more-support-for-eczema-welcomed-by-patients)
 
-2026-03-28
+2026-03-29
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/mohs-plans-to-provide-more-support-for-eczema-welcomed-by-patients)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/mohs-plans
 
 ### [Chronic hives vs allergies: When that persistent itch signals a bigger problem](https://www.straitstimes.com/singapore/health/chronic-hives-vs-allergies-when-that-persistent-itch-signals-a-bigger-problem-novartis)
 
-2026-03-28
+2026-03-29
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/chronic-hives-vs-allergies-when-that-persistent-itch-signals-a-bigger-problem-novartis)
 
