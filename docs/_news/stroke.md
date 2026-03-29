@@ -13,7 +13,7 @@ permalink: /news/stroke/
 
 ---
 
-**1 articles** related to stroke.
+**2 articles** related to stroke.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/stroke/
 2026-03-29
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-rolls-out-37-9m-initiative-to-help-people-age-well-with-technology)
+
+---
+
+### [Irregular heartbeat? It could be a heart condition that greatly increases the risk of stroke](https://www.straitstimes.com/singapore/health/irregular-heartbeat-it-could-be-a-heart-condition-that-greatly-increases-the-risk-of-stroke)
+
+2026-03-29
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/irregular-heartbeat-it-could-be-a-heart-condition-that-greatly-increases-the-risk-of-stroke)
 
 ---
 

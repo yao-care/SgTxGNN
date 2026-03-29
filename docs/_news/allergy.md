@@ -13,15 +13,7 @@ permalink: /news/allergy/
 
 ---
 
-**2 articles** related to allergy.
-
----
-
-### [MOH’s plans to provide more support for eczema welcomed by patients](https://www.straitstimes.com/singapore/health/mohs-plans-to-provide-more-support-for-eczema-welcomed-by-patients)
-
-2026-03-29
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/mohs-plans-to-provide-more-support-for-eczema-welcomed-by-patients)
+**1 articles** related to allergy.
 
 ---
 
