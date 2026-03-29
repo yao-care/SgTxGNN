@@ -19,7 +19,7 @@ permalink: /news/multiple-sclerosis/
 
 ### [Alexandra Hospital transforms Parkinson’s care with bi-monthly clinic](https://www.straitstimes.com/singapore/health/alexandra-hospital-transforms-parkinsons-care-with-bi-monthly-clinic-cafe)
 
-2026-03-28
+2026-03-29
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/alexandra-hospital-transforms-parkinsons-care-with-bi-monthly-clinic-cafe)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/alexandra-
 
 ### [NUH living-donor kidney transplant patients survive an average of 31 years, beating global norms](https://www.straitstimes.com/singapore/health/nuh-living-donor-kidney-transplant-patients-survive-an-average-of-31-years-beating-global-norms)
 
-2026-03-28
+2026-03-29
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/nuh-living-donor-kidney-transplant-patients-survive-an-average-of-31-years-beating-global-norms)
 
