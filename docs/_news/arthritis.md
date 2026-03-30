@@ -13,29 +13,13 @@ permalink: /news/arthritis/
 
 ---
 
-**8 articles** related to arthritis.
-
----
-
-### [Alexandra Hospital transforms Parkinson’s care with bi-monthly clinic](https://www.straitstimes.com/singapore/health/alexandra-hospital-transforms-parkinsons-care-with-bi-monthly-clinic-cafe)
-
-2026-03-29
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/alexandra-hospital-transforms-parkinsons-care-with-bi-monthly-clinic-cafe)
-
----
-
-### [Looking towards gene therapy to give baby Ginny a normal life](https://www.straitstimes.com/singapore/health/looking-towards-gene-therapy-to-give-baby-ginny-a-normal-life)
-
-2026-03-29
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/looking-towards-gene-therapy-to-give-baby-ginny-a-normal-life)
+**6 articles** related to arthritis.
 
 ---
 
 ### [Women welcome MOH move to screen for family cancer history, have insurance cover preventive surgery](https://www.straitstimes.com/singapore/health/women-welcome-mohs-move-to-screen-for-family-history-of-cancer-have-insurance-cover-preventive)
 
-2026-03-29
+2026-03-30
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/women-welcome-mohs-move-to-screen-for-family-history-of-cancer-have-insurance-cover-preventive)
 
@@ -43,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/women-welc
 
 ### [NUH living-donor kidney transplant patients survive an average of 31 years, beating global norms](https://www.straitstimes.com/singapore/health/nuh-living-donor-kidney-transplant-patients-survive-an-average-of-31-years-beating-global-norms)
 
-2026-03-29
+2026-03-30
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/nuh-living-donor-kidney-transplant-patients-survive-an-average-of-31-years-beating-global-norms)
 
@@ -51,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/nuh-living
 
 ### [Can pregnancy damage your teeth? What food cravings, morning sickness and hormones do to your oral health](https://www.channelnewsasia.com/women/pregnancy-oral-health-teeth-gums-5939506)
 
-2026-03-29
+2026-03-30
 
 Source: [CNA](https://www.channelnewsasia.com/women/pregnancy-oral-health-teeth-gums-5939506)
 
@@ -59,7 +43,7 @@ Source: [CNA](https://www.channelnewsasia.com/women/pregnancy-oral-health-teeth-
 
 ### [Commentary: Strength training may be the key to healthy ageing](https://www.channelnewsasia.com/commentary/strength-training-healthy-ageing-exercise-routine-5976751)
 
-2026-03-29
+2026-03-30
 
 Source: [CNA](https://www.channelnewsasia.com/commentary/strength-training-healthy-ageing-exercise-routine-5976751)
 
@@ -67,7 +51,7 @@ Source: [CNA](https://www.channelnewsasia.com/commentary/strength-training-healt
 
 ### [TikTok’s new favourite drink is hot water – is it just basic hydration or something else?](https://www.channelnewsasia.com/wellness/health-benefits-hot-water-tiktok-5971671)
 
-2026-03-29
+2026-03-30
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/health-benefits-hot-water-tiktok-5971671)
 
@@ -75,7 +59,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/health-benefits-hot-water
 
 ### [Super-agers' brains have a special ability tied to sharp memory, new study suggests](https://www.channelnewsasia.com/wellness/super-agers-brains-neurons-5965341)
 
-2026-03-29
+2026-03-30
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/super-agers-brains-neurons-5965341)
 

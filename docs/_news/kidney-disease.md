@@ -19,7 +19,7 @@ permalink: /news/kidney-disease/
 
 ### [NKF steps up push for home-based peritoneal dialysis amid rising kidney failure cases](https://www.straitstimes.com/singapore/health/nkf-steps-up-push-for-home-based-peritoneal-dialysis-amid-rising-kidney-failure-cases)
 
-2026-03-29
+2026-03-30
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/nkf-steps-up-push-for-home-based-peritoneal-dialysis-amid-rising-kidney-failure-cases)
 
