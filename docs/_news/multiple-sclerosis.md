@@ -19,7 +19,7 @@ permalink: /news/multiple-sclerosis/
 
 ### [NUH living-donor kidney transplant patients survive an average of 31 years, beating global norms](https://www.straitstimes.com/singapore/health/nuh-living-donor-kidney-transplant-patients-survive-an-average-of-31-years-beating-global-norms)
 
-2026-03-30
+2026-03-31
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/nuh-living-donor-kidney-transplant-patients-survive-an-average-of-31-years-beating-global-norms)
 
