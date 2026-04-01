@@ -13,21 +13,13 @@ permalink: /news/myopia/
 
 ---
 
-**3 articles** related to myopia.
-
----
-
-### [Ditch the glasses and contacts: More surgery options to fix your myopia](https://www.straitstimes.com/singapore/health/how-vision-correction-surgery-for-myopia-has-evolved-beyond-lasik-dr-natasha-lim)
-
-2026-03-31
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/how-vision-correction-surgery-for-myopia-has-evolved-beyond-lasik-dr-natasha-lim)
+**2 articles** related to myopia.
 
 ---
 
 ### [Myopia now, glaucoma later? The hidden link explained and how to reduce your risk](https://www.channelnewsasia.com/wellness/glaucoma-risk-lasik-eye-implants-5948976)
 
-2026-03-31
+2026-04-01
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/glaucoma-risk-lasik-eye-implants-5948976)
 
@@ -35,7 +27,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/glaucoma-risk-lasik-eye-i
 
 ### [Elvin Ng’s eye surgery: Retinal detachment, myopia and the warning signs you should not ignore](https://www.channelnewsasia.com/wellness/retinal-detachment-elvin-ng-myopia-warning-signs-5963411)
 
-2026-03-31
+2026-04-01
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/retinal-detachment-elvin-ng-myopia-warning-signs-5963411)
 
