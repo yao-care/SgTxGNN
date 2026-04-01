@@ -13,7 +13,7 @@ permalink: /news/multiple-sclerosis/
 
 ---
 
-**2 articles** related to multiple sclerosis.
+**3 articles** related to multiple sclerosis.
 
 ---
 
@@ -30,6 +30,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/nuh-living
 2026-04-01
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/several-insurers-launch-new-ip-riders-with-new-features-going-beyond-lower-premiums)
+
+---
+
+### [New IP riders with lower premiums will make private healthcare more sustainable: Ong Ye Kung](https://www.straitstimes.com/singapore/health/new-ip-riders-with-lower-premiums-will-make-private-healthcare-more-sustainable-ong-ye-kung)
+
+2026-04-01
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-ip-riders-with-lower-premiums-will-make-private-healthcare-more-sustainable-ong-ye-kung)
 
 ---
 
