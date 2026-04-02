@@ -19,7 +19,7 @@ permalink: /news/hiv/
 
 ### [Chronic hives vs allergies: When that persistent itch signals a bigger problem](https://www.straitstimes.com/singapore/health/chronic-hives-vs-allergies-when-that-persistent-itch-signals-a-bigger-problem-novartis)
 
-2026-04-01
+2026-04-02
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/chronic-hives-vs-allergies-when-that-persistent-itch-signals-a-bigger-problem-novartis)
 
