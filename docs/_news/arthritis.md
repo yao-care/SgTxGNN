@@ -17,19 +17,19 @@ permalink: /news/arthritis/
 
 ---
 
-### [NUH living-donor kidney transplant patients survive an average of 31 years, beating global norms](https://www.straitstimes.com/singapore/health/nuh-living-donor-kidney-transplant-patients-survive-an-average-of-31-years-beating-global-norms)
-
-2026-04-02
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/nuh-living-donor-kidney-transplant-patients-survive-an-average-of-31-years-beating-global-norms)
-
----
-
 ### [Several insurers launch new IP riders with new features, going beyond lower premiums](https://www.straitstimes.com/singapore/health/several-insurers-launch-new-ip-riders-with-new-features-going-beyond-lower-premiums)
 
 2026-04-02
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/several-insurers-launch-new-ip-riders-with-new-features-going-beyond-lower-premiums)
+
+---
+
+### [NTU, NHG Health launch work-study programme to boost number of clinical psychologists in S’pore](https://www.straitstimes.com/singapore/health/more-clinical-psychologists-needed-in-spore-ntu-nhg-health-launch-new-work-study-programme)
+
+2026-04-02
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/more-clinical-psychologists-needed-in-spore-ntu-nhg-health-launch-new-work-study-programme)
 
 ---
 
