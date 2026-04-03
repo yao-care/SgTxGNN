@@ -19,7 +19,7 @@ permalink: /news/stroke/
 
 ### [Singapore rolls out $37.9m initiative to help people age well with technology](https://www.straitstimes.com/singapore/health/singapore-rolls-out-37-9m-initiative-to-help-people-age-well-with-technology)
 
-2026-04-02
+2026-04-03
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-rolls-out-37-9m-initiative-to-help-people-age-well-with-technology)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-
 
 ### [Irregular heartbeat? It could be a heart condition that greatly increases the risk of stroke](https://www.straitstimes.com/singapore/health/irregular-heartbeat-it-could-be-a-heart-condition-that-greatly-increases-the-risk-of-stroke)
 
-2026-04-02
+2026-04-03
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/irregular-heartbeat-it-could-be-a-heart-condition-that-greatly-increases-the-risk-of-stroke)
 
