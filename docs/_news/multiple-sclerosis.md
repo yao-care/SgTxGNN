@@ -33,7 +33,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-ip-rid
 
 ---
 
-### [Five of seven private health insurers hike premiums for existing plans](https://www.straitstimes.com/singapore/health/five-of-seven-private-health-insurers-hike-premiums-for-existing-plans)
+### [Five of seven private health insurers hike IP premiums for existing plans](https://www.straitstimes.com/singapore/health/five-of-seven-private-health-insurers-hike-premiums-for-existing-plans)
 
 2026-04-03
 
