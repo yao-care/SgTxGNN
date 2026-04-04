@@ -13,15 +13,7 @@ permalink: /news/stroke/
 
 ---
 
-**2 articles** related to stroke.
-
----
-
-### [Singapore rolls out $37.9m initiative to help people age well with technology](https://www.straitstimes.com/singapore/health/singapore-rolls-out-37-9m-initiative-to-help-people-age-well-with-technology)
-
-2026-04-04
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-rolls-out-37-9m-initiative-to-help-people-age-well-with-technology)
+**1 articles** related to stroke.
 
 ---
 

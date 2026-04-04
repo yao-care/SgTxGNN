@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
+**7 articles** related to arthritis.
 
 ---
 
@@ -30,6 +30,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/several-in
 2026-04-04
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/more-clinical-psychologists-needed-in-spore-ntu-nhg-health-launch-new-work-study-programme)
+
+---
+
+### [She is allergic to exercise, and carries two EpiPens as precaution when she travels](https://www.straitstimes.com/singapore/health/she-is-allergic-to-exercise-and-carries-two-epipens-as-precaution-when-she-travels)
+
+2026-04-04
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/she-is-allergic-to-exercise-and-carries-two-epipens-as-precaution-when-she-travels)
 
 ---
 
