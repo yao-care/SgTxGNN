@@ -19,7 +19,7 @@ permalink: /news/allergy/
 
 ### [Jogger rushed to hospital after ‘super rare’ allergic reaction triggered by exercise](https://www.straitstimes.com/singapore/health/she-is-allergic-to-exercise-and-carries-two-epipens-as-precaution-when-she-travels)
 
-2026-04-04
+2026-04-05
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/she-is-allergic-to-exercise-and-carries-two-epipens-as-precaution-when-she-travels)
 

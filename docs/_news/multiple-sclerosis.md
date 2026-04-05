@@ -19,7 +19,7 @@ permalink: /news/multiple-sclerosis/
 
 ### [Several insurers launch new IP riders with new features, going beyond lower premiums](https://www.straitstimes.com/singapore/health/several-insurers-launch-new-ip-riders-with-new-features-going-beyond-lower-premiums)
 
-2026-04-04
+2026-04-05
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/several-insurers-launch-new-ip-riders-with-new-features-going-beyond-lower-premiums)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/several-in
 
 ### [New IP riders with lower premiums will make private healthcare more sustainable: Ong Ye Kung](https://www.straitstimes.com/singapore/health/new-ip-riders-with-lower-premiums-will-make-private-healthcare-more-sustainable-ong-ye-kung)
 
-2026-04-04
+2026-04-05
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-ip-riders-with-lower-premiums-will-make-private-healthcare-more-sustainable-ong-ye-kung)
 
@@ -35,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-ip-rid
 
 ### [Five of seven private health insurers hike IP premiums for existing plans](https://www.straitstimes.com/singapore/health/five-of-seven-private-health-insurers-hike-premiums-for-existing-plans)
 
-2026-04-04
+2026-04-05
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/five-of-seven-private-health-insurers-hike-premiums-for-existing-plans)
 
