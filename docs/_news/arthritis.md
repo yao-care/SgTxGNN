@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**9 articles** related to arthritis.
+**10 articles** related to arthritis.
 
 ---
 
@@ -41,6 +41,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/she-is-all
 
 ---
 
+### [Growing number of liver transplant patients linked to obesity and diabetes, instead of hepatitis B](https://www.straitstimes.com/singapore/health/growing-number-of-liver-transplant-patients-driven-by-obesity-and-diabetes-instead-of-hepatitis-b)
+
+2026-04-07
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/growing-number-of-liver-transplant-patients-driven-by-obesity-and-diabetes-instead-of-hepatitis-b)
+
+---
+
 ### [Singapore study reveals role of different brain regions in regulating impulsive behaviour](https://www.straitstimes.com/singapore/health/singapore-study-discovers-role-of-different-brain-regions-in-regulating-impulsive-behaviour)
 
 2026-04-07
@@ -49,11 +57,11 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-
 
 ---
 
-### [Growing number of liver transplant patients linked to obesity and diabetes, instead of hepatitis B](https://www.straitstimes.com/singapore/health/growing-number-of-liver-transplant-patients-driven-by-obesity-and-diabetes-instead-of-hepatitis-b)
+### [New surgical procedure shown to improve symptoms of moderate Alzheimer’s disease](https://www.straitstimes.com/singapore/health/new-surgical-procedure-shown-to-improve-symptoms-of-moderate-alzheimers-disease)
 
 2026-04-07
 
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/growing-number-of-liver-transplant-patients-driven-by-obesity-and-diabetes-instead-of-hepatitis-b)
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-surgical-procedure-shown-to-improve-symptoms-of-moderate-alzheimers-disease)
 
 ---
 
