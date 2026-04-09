@@ -13,15 +13,7 @@ permalink: /news/multiple-sclerosis/
 
 ---
 
-**2 articles** related to multiple sclerosis.
-
----
-
-### [Five of seven private health insurers hike IP premiums for existing plans](https://www.straitstimes.com/singapore/health/five-of-seven-private-health-insurers-hike-premiums-for-existing-plans)
-
-2026-04-09
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/five-of-seven-private-health-insurers-hike-premiums-for-existing-plans)
+**1 articles** related to multiple sclerosis.
 
 ---
 
