@@ -13,21 +13,13 @@ permalink: /news/multiple-sclerosis/
 
 ---
 
-**3 articles** related to multiple sclerosis.
-
----
-
-### [New IP riders with lower premiums will make private healthcare more sustainable: Ong Ye Kung](https://www.straitstimes.com/singapore/health/new-ip-riders-with-lower-premiums-will-make-private-healthcare-more-sustainable-ong-ye-kung)
-
-2026-04-08
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-ip-riders-with-lower-premiums-will-make-private-healthcare-more-sustainable-ong-ye-kung)
+**2 articles** related to multiple sclerosis.
 
 ---
 
 ### [Five of seven private health insurers hike IP premiums for existing plans](https://www.straitstimes.com/singapore/health/five-of-seven-private-health-insurers-hike-premiums-for-existing-plans)
 
-2026-04-08
+2026-04-09
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/five-of-seven-private-health-insurers-hike-premiums-for-existing-plans)
 
@@ -35,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/five-of-se
 
 ### [New surgical procedure shown to improve symptoms of moderate Alzheimer’s disease](https://www.straitstimes.com/singapore/health/new-surgical-procedure-shown-to-improve-symptoms-of-moderate-alzheimers-disease)
 
-2026-04-08
+2026-04-09
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-surgical-procedure-shown-to-improve-symptoms-of-moderate-alzheimers-disease)
 
