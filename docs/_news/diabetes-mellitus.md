@@ -19,7 +19,7 @@ permalink: /news/diabetes-mellitus/
 
 ### [Growing number of liver transplant patients linked to obesity and diabetes, instead of hepatitis B](https://www.straitstimes.com/singapore/health/growing-number-of-liver-transplant-patients-driven-by-obesity-and-diabetes-instead-of-hepatitis-b)
 
-2026-04-09
+2026-04-10
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/growing-number-of-liver-transplant-patients-driven-by-obesity-and-diabetes-instead-of-hepatitis-b)
 
