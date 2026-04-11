@@ -19,7 +19,7 @@ permalink: /news/obesity/
 
 ### [Growing number of liver transplant patients linked to obesity and diabetes, instead of hepatitis B](https://www.straitstimes.com/singapore/health/growing-number-of-liver-transplant-patients-driven-by-obesity-and-diabetes-instead-of-hepatitis-b)
 
-2026-04-10
+2026-04-11
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/growing-number-of-liver-transplant-patients-driven-by-obesity-and-diabetes-instead-of-hepatitis-b)
 
