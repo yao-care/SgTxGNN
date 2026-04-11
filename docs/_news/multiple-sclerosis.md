@@ -19,7 +19,7 @@ permalink: /news/multiple-sclerosis/
 
 ### [New surgical procedure shown to improve symptoms of moderate Alzheimer’s disease](https://www.straitstimes.com/singapore/health/new-surgical-procedure-shown-to-improve-symptoms-of-moderate-alzheimers-disease)
 
-2026-04-10
+2026-04-11
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-surgical-procedure-shown-to-improve-symptoms-of-moderate-alzheimers-disease)
 
