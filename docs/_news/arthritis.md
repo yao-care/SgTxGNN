@@ -13,31 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**9 articles** related to arthritis.
-
----
-
-### [NTU, NHG Health launch work-study programme to boost number of clinical psychologists in S’pore](https://www.straitstimes.com/singapore/health/more-clinical-psychologists-needed-in-spore-ntu-nhg-health-launch-new-work-study-programme)
-
-2026-04-11
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/more-clinical-psychologists-needed-in-spore-ntu-nhg-health-launch-new-work-study-programme)
-
----
-
-### [Jogger rushed to hospital after ‘super rare’ allergic reaction triggered by exercise](https://www.straitstimes.com/singapore/health/she-is-allergic-to-exercise-and-carries-two-epipens-as-precaution-when-she-travels)
-
-2026-04-11
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/she-is-allergic-to-exercise-and-carries-two-epipens-as-precaution-when-she-travels)
-
----
-
-### [Singapore study reveals role of different brain regions in regulating impulsive behaviour](https://www.straitstimes.com/singapore/health/singapore-study-discovers-role-of-different-brain-regions-in-regulating-impulsive-behaviour)
-
-2026-04-11
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-study-discovers-role-of-different-brain-regions-in-regulating-impulsive-behaviour)
+**8 articles** related to arthritis.
 
 ---
 
@@ -49,11 +25,27 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/growing-nu
 
 ---
 
+### [Singapore study reveals role of different brain regions in regulating impulsive behaviour](https://www.straitstimes.com/singapore/health/singapore-study-discovers-role-of-different-brain-regions-in-regulating-impulsive-behaviour)
+
+2026-04-11
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-study-discovers-role-of-different-brain-regions-in-regulating-impulsive-behaviour)
+
+---
+
 ### [New surgical procedure shown to improve symptoms of moderate Alzheimer’s disease](https://www.straitstimes.com/singapore/health/new-surgical-procedure-shown-to-improve-symptoms-of-moderate-alzheimers-disease)
 
 2026-04-11
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-surgical-procedure-shown-to-improve-symptoms-of-moderate-alzheimers-disease)
+
+---
+
+### [In the online ‘maxxing’ era, what is the deal with fibre and protein?](https://www.straitstimes.com/singapore/health/in-the-online-maxxing-era-what-is-the-deal-with-fibre-and-protein)
+
+2026-04-11
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/in-the-online-maxxing-era-what-is-the-deal-with-fibre-and-protein)
 
 ---
 
