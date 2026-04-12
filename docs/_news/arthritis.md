@@ -17,19 +17,19 @@ permalink: /news/arthritis/
 
 ---
 
-### [Growing number of liver transplant patients linked to obesity and diabetes, instead of hepatitis B](https://www.straitstimes.com/singapore/health/growing-number-of-liver-transplant-patients-driven-by-obesity-and-diabetes-instead-of-hepatitis-b)
-
-2026-04-12
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/growing-number-of-liver-transplant-patients-driven-by-obesity-and-diabetes-instead-of-hepatitis-b)
-
----
-
 ### [Singapore study reveals role of different brain regions in regulating impulsive behaviour](https://www.straitstimes.com/singapore/health/singapore-study-discovers-role-of-different-brain-regions-in-regulating-impulsive-behaviour)
 
 2026-04-12
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-study-discovers-role-of-different-brain-regions-in-regulating-impulsive-behaviour)
+
+---
+
+### [Growing number of liver transplant patients linked to obesity and diabetes, instead of hepatitis B](https://www.straitstimes.com/singapore/health/growing-number-of-liver-transplant-patients-driven-by-obesity-and-diabetes-instead-of-hepatitis-b)
+
+2026-04-12
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/growing-number-of-liver-transplant-patients-driven-by-obesity-and-diabetes-instead-of-hepatitis-b)
 
 ---
 
