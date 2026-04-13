@@ -19,7 +19,7 @@ permalink: /news/sleep-disorder/
 
 ### [Improve sleep quality, reduce inflammation, support injury recovery: How an oxygen boost might help](https://www.straitstimes.com/singapore/health/artisan-hyperbaric-oxygen-therapy-improve-sleep-reduce-inflammation-support-injury-recovery)
 
-2026-04-12
+2026-04-13
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/artisan-hyperbaric-oxygen-therapy-improve-sleep-reduce-inflammation-support-injury-recovery)
 
