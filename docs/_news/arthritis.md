@@ -13,15 +13,23 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
+**8 articles** related to arthritis.
 
 ---
 
-### [Singapore study reveals role of different brain regions in regulating impulsive behaviour](https://www.straitstimes.com/singapore/health/singapore-study-discovers-role-of-different-brain-regions-in-regulating-impulsive-behaviour)
+### [NS medical grading system to change from October 2027 enlistment](https://www.todayonline.com/singapore/national-service-pes-medical-classification-system-saf-home-team-6049106)
 
 2026-04-13
 
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-study-discovers-role-of-different-brain-regions-in-regulating-impulsive-behaviour)
+Source: [TODAY](https://www.todayonline.com/singapore/national-service-pes-medical-classification-system-saf-home-team-6049106)
+
+---
+
+### [Growing number of liver transplant patients linked to obesity and diabetes, instead of hepatitis B](https://www.straitstimes.com/singapore/health/growing-number-of-liver-transplant-patients-driven-by-obesity-and-diabetes-instead-of-hepatitis-b)
+
+2026-04-13
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/growing-number-of-liver-transplant-patients-driven-by-obesity-and-diabetes-instead-of-hepatitis-b)
 
 ---
 
