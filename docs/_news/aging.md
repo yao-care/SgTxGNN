@@ -17,7 +17,7 @@ permalink: /news/aging/
 
 ---
 
-### [Singapore must rethink work, support systems to help individuals in a ‘longevity’ society](https://www.straitstimes.com/singapore/health/singapore-must-rethink-work-support-systems-to-help-individuals-in-a-longevity-society)
+### [Singapore must rethink work, support systems to help individuals in a ‘longevity’ society: Indranee](https://www.straitstimes.com/singapore/health/singapore-must-rethink-work-support-systems-to-help-individuals-in-a-longevity-society)
 
 2026-04-14
 
