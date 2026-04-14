@@ -19,7 +19,7 @@ permalink: /news/epilepsy/
 
 ### [Living with growing muscle weakness, movement challenges and seizures](https://www.straitstimes.com/singapore/health/living-with-growing-muscle-weakness-movement-challenges-and-seizures)
 
-2026-04-13
+2026-04-14
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/living-with-growing-muscle-weakness-movement-challenges-and-seizures)
 
