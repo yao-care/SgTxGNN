@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
-
----
-
-### [New surgical procedure shown to improve symptoms of moderate Alzheimer’s disease](https://www.straitstimes.com/singapore/health/new-surgical-procedure-shown-to-improve-symptoms-of-moderate-alzheimers-disease)
-
-2026-04-14
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-surgical-procedure-shown-to-improve-symptoms-of-moderate-alzheimers-disease)
+**7 articles** related to arthritis.
 
 ---
 
@@ -30,6 +22,22 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-surgic
 2026-04-14
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/in-the-online-maxxing-era-what-is-the-deal-with-fibre-and-protein)
+
+---
+
+### [Singapore must rethink work, support systems to help individuals in a ‘longevity’ society: Indranee](https://www.straitstimes.com/singapore/health/singapore-must-rethink-work-support-systems-to-help-individuals-in-a-longevity-society)
+
+2026-04-14
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-must-rethink-work-support-systems-to-help-individuals-in-a-longevity-society)
+
+---
+
+### [Should you buy a health insurance rider,  downgrade your old rider or drop it?](https://www.straitstimes.com/singapore/health/should-you-buy-a-health-insurance-rider-downgrade-your-old-rider-or-drop-it)
+
+2026-04-14
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/should-you-buy-a-health-insurance-rider-downgrade-your-old-rider-or-drop-it)
 
 ---
 
