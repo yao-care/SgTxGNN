@@ -13,7 +13,15 @@ permalink: /news/aging/
 
 ---
 
-**3 articles** related to aging.
+**4 articles** related to aging.
+
+---
+
+### [Singapore must rethink work, support systems to help individuals in a ‘longevity’ society](https://www.straitstimes.com/singapore/health/singapore-must-rethink-work-support-systems-to-help-individuals-in-a-longevity-society)
+
+2026-04-14
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-must-rethink-work-support-systems-to-help-individuals-in-a-longevity-society)
 
 ---
 
