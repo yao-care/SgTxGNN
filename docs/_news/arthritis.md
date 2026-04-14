@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
-
----
-
-### [Singapore study reveals role of different brain regions in regulating impulsive behaviour](https://www.straitstimes.com/singapore/health/singapore-study-discovers-role-of-different-brain-regions-in-regulating-impulsive-behaviour)
-
-2026-04-14
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-study-discovers-role-of-different-brain-regions-in-regulating-impulsive-behaviour)
+**6 articles** related to arthritis.
 
 ---
 

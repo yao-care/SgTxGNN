@@ -13,7 +13,7 @@ permalink: /news/multiple-sclerosis/
 
 ---
 
-**1 articles** related to multiple sclerosis.
+**2 articles** related to multiple sclerosis.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/multiple-sclerosis/
 2026-04-14
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-surgical-procedure-shown-to-improve-symptoms-of-moderate-alzheimers-disease)
+
+---
+
+### [Singapore must rethink work, support systems to help individuals in a ‘longevity’ society](https://www.straitstimes.com/singapore/health/singapore-must-rethink-work-support-systems-to-help-individuals-in-a-longevity-society)
+
+2026-04-14
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-must-rethink-work-support-systems-to-help-individuals-in-a-longevity-society)
 
 ---
 
