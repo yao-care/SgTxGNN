@@ -49,7 +49,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/healthpoin
 
 ---
 
-### [Power of touch: TTSH to scale care programme across all wards after finding it improves care](https://www.straitstimes.com/singapore/health/healing-touch-ttsh-to-scale-care-programme-across-all-wards-after-finding-it-improves-care)
+### [TTSH to extend care programme to all wards as patients benefit from power of touch](https://www.straitstimes.com/singapore/health/healing-touch-ttsh-to-scale-care-programme-across-all-wards-after-finding-it-improves-care)
 
 2026-04-15
 
