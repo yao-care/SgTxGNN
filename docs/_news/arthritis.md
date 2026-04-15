@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
+**8 articles** related to arthritis.
 
 ---
 
@@ -38,6 +38,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-
 2026-04-15
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/should-you-buy-a-health-insurance-rider-downgrade-your-old-rider-or-drop-it)
+
+---
+
+### [Healthpoint rewards among measures to draw more blood donors, mitigate possible shortage](https://www.straitstimes.com/singapore/health/healthpoint-rewards-to-be-given-to-blood-donors-from-2026-second-half-to-avert-possible-shortage)
+
+2026-04-15
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/healthpoint-rewards-to-be-given-to-blood-donors-from-2026-second-half-to-avert-possible-shortage)
 
 ---
 
