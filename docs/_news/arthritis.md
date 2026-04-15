@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**8 articles** related to arthritis.
+**9 articles** related to arthritis.
 
 ---
 
@@ -46,6 +46,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/should-you
 2026-04-15
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/healthpoint-rewards-to-be-given-to-blood-donors-from-2026-second-half-to-avert-possible-shortage)
+
+---
+
+### [Power of touch: TTSH to scale care programme across all wards after finding it improves care](https://www.straitstimes.com/singapore/health/healing-touch-ttsh-to-scale-care-programme-across-all-wards-after-finding-it-improves-care)
+
+2026-04-15
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/healing-touch-ttsh-to-scale-care-programme-across-all-wards-after-finding-it-improves-care)
 
 ---
 
