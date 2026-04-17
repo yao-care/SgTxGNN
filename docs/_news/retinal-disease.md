@@ -19,7 +19,7 @@ permalink: /news/retinal-disease/
 
 ### [Elvin Ng’s eye surgery: Retinal detachment, myopia and the warning signs you should not ignore](https://www.channelnewsasia.com/wellness/retinal-detachment-elvin-ng-myopia-warning-signs-5963411)
 
-2026-04-16
+2026-04-17
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/retinal-detachment-elvin-ng-myopia-warning-signs-5963411)
 

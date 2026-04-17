@@ -19,7 +19,7 @@ permalink: /news/multiple-sclerosis/
 
 ### [Singapore must rethink work, support systems to help individuals in a ‘longevity’ society: Indranee](https://www.straitstimes.com/singapore/health/singapore-must-rethink-work-support-systems-to-help-individuals-in-a-longevity-society)
 
-2026-04-16
+2026-04-17
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-must-rethink-work-support-systems-to-help-individuals-in-a-longevity-society)
 
