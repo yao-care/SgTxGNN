@@ -17,14 +17,6 @@ permalink: /news/arthritis/
 
 ---
 
-### [In the online ‘maxxing’ era, what is the deal with fibre and protein?](https://www.straitstimes.com/singapore/health/in-the-online-maxxing-era-what-is-the-deal-with-fibre-and-protein)
-
-2026-04-17
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/in-the-online-maxxing-era-what-is-the-deal-with-fibre-and-protein)
-
----
-
 ### [Singapore must rethink work, support systems to help individuals in a ‘longevity’ society: Indranee](https://www.straitstimes.com/singapore/health/singapore-must-rethink-work-support-systems-to-help-individuals-in-a-longevity-society)
 
 2026-04-17
@@ -54,6 +46,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/healthpoin
 2026-04-17
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/healing-touch-ttsh-to-scale-care-programme-across-all-wards-after-finding-it-improves-care)
+
+---
+
+### [About 20 cases of illegal dental practice probed in Singapore between 2021 and 2025](https://www.straitstimes.com/singapore/health/about-20-cases-of-illegal-dental-practice-probed-in-singapore-between-2021-and-2025)
+
+2026-04-17
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/about-20-cases-of-illegal-dental-practice-probed-in-singapore-between-2021-and-2025)
 
 ---
 
