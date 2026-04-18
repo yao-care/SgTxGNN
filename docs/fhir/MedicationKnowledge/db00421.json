@@ -10,44 +10,28 @@
   "code": {
     "coding": [
       {
-        "system": "https://go.drugbank.com/drugs",
-        "code": "DB00421",
-        "display": "SPIRONOLACTONE"
+        "system": "https://sgtxgnn.yao.care/drugs",
+        "code": "db00421",
+        "display": "Spironolactone"
       }
     ],
-    "text": "SPIRONOLACTONE"
+    "text": "Spironolactone"
   },
-  "synonym": [
-    "SPIROLON 25 TABLET 25 mg"
-  ],
   "intendedJurisdiction": [
     {
       "coding": [
         {
           "system": "urn:iso:std:iso:3166",
-          "code": "SG",
-          "display": "Singapore"
-        }
-      ]
-    }
-  ],
-  "regulatory": [
-    {
-      "regulatoryAuthority": {
-        "display": "Singapore Health Sciences Authority (HSA)"
-      },
-      "identifier": [
-        {
-          "system": "https://sgtxgnn.yao.care/hsa-license",
-          "value": "SIN02153P"
+          "code": "TW",
+          "display": "Taiwan"
         }
       ]
     }
   ],
   "extension": [
     {
-      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-source",
-      "valueString": "TxGNN Knowledge Graph"
+      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
     }
   ]
 }

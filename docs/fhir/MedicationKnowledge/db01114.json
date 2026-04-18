@@ -10,44 +10,28 @@
   "code": {
     "coding": [
       {
-        "system": "https://go.drugbank.com/drugs",
-        "code": "DB01114",
-        "display": "CHLORPHENIRAMINE MALEATE"
+        "system": "https://sgtxgnn.yao.care/drugs",
+        "code": "db01114",
+        "display": "Chlorpheniramine"
       }
     ],
-    "text": "CHLORPHENIRAMINE MALEATE"
+    "text": "Chlorpheniramine"
   },
-  "synonym": [
-    "CHLORPYRIMINE TABLET 4 mg"
-  ],
   "intendedJurisdiction": [
     {
       "coding": [
         {
           "system": "urn:iso:std:iso:3166",
-          "code": "SG",
-          "display": "Singapore"
-        }
-      ]
-    }
-  ],
-  "regulatory": [
-    {
-      "regulatoryAuthority": {
-        "display": "Singapore Health Sciences Authority (HSA)"
-      },
-      "identifier": [
-        {
-          "system": "https://sgtxgnn.yao.care/hsa-license",
-          "value": "SIN03442P"
+          "code": "TW",
+          "display": "Taiwan"
         }
       ]
     }
   ],
   "extension": [
     {
-      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-source",
-      "valueString": "TxGNN Knowledge Graph"
+      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
     }
   ]
 }

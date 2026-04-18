@@ -10,44 +10,28 @@
   "code": {
     "coding": [
       {
-        "system": "https://go.drugbank.com/drugs",
-        "code": "DB00332",
-        "display": "IPRATROPIUM BROMIDE"
+        "system": "https://sgtxgnn.yao.care/drugs",
+        "code": "db00332",
+        "display": "Ipratropium"
       }
     ],
-    "text": "IPRATROPIUM BROMIDE"
+    "text": "Ipratropium"
   },
-  "synonym": [
-    "STERI-NEB IPRATROPIUM NEBULISER SOLUTION 250 mcg/ml"
-  ],
   "intendedJurisdiction": [
     {
       "coding": [
         {
           "system": "urn:iso:std:iso:3166",
-          "code": "SG",
-          "display": "Singapore"
-        }
-      ]
-    }
-  ],
-  "regulatory": [
-    {
-      "regulatoryAuthority": {
-        "display": "Singapore Health Sciences Authority (HSA)"
-      },
-      "identifier": [
-        {
-          "system": "https://sgtxgnn.yao.care/hsa-license",
-          "value": "SIN10039P"
+          "code": "TW",
+          "display": "Taiwan"
         }
       ]
     }
   ],
   "extension": [
     {
-      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-source",
-      "valueString": "TxGNN Knowledge Graph"
+      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
     }
   ]
 }

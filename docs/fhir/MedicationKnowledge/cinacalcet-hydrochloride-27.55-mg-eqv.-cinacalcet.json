@@ -1,0 +1,37 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "cinacalcet-hydrochloride-27.55-mg-eqv.-cinacalcet",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
+    ]
+  },
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "https://sgtxgnn.yao.care/drugs",
+        "code": "cinacalcet-hydrochloride-27.55-mg-eqv.-cinacalcet",
+        "display": "CINACALCET HYDROCHLORIDE 27.55 MG EQV. CINACALCET"
+      }
+    ],
+    "text": "CINACALCET HYDROCHLORIDE 27.55 MG EQV. CINACALCET"
+  },
+  "intendedJurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "TW",
+          "display": "Taiwan"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    }
+  ]
+}
