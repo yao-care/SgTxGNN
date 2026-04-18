@@ -10,44 +10,28 @@
   "code": {
     "coding": [
       {
-        "system": "https://go.drugbank.com/drugs",
-        "code": "DB00887",
-        "display": "BUMETANIDE"
+        "system": "https://sgtxgnn.yao.care/drugs",
+        "code": "db00887",
+        "display": "Bumetanide"
       }
     ],
-    "text": "BUMETANIDE"
+    "text": "Bumetanide"
   },
-  "synonym": [
-    "BURINEX TABLET 1 mg"
-  ],
   "intendedJurisdiction": [
     {
       "coding": [
         {
           "system": "urn:iso:std:iso:3166",
-          "code": "SG",
-          "display": "Singapore"
-        }
-      ]
-    }
-  ],
-  "regulatory": [
-    {
-      "regulatoryAuthority": {
-        "display": "Singapore Health Sciences Authority (HSA)"
-      },
-      "identifier": [
-        {
-          "system": "https://sgtxgnn.yao.care/hsa-license",
-          "value": "SIN00718P"
+          "code": "TW",
+          "display": "Taiwan"
         }
       ]
     }
   ],
   "extension": [
     {
-      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-source",
-      "valueString": "TxGNN Knowledge Graph"
+      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
     }
   ]
 }

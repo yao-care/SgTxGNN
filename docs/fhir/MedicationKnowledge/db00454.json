@@ -10,44 +10,28 @@
   "code": {
     "coding": [
       {
-        "system": "https://go.drugbank.com/drugs",
-        "code": "DB00454",
-        "display": "MEPERIDINE 43.57MG AS MEPERIDINE HYDROCHLORIDE"
+        "system": "https://sgtxgnn.yao.care/drugs",
+        "code": "db00454",
+        "display": "Meperidine"
       }
     ],
-    "text": "MEPERIDINE 43.57MG AS MEPERIDINE HYDROCHLORIDE"
+    "text": "Meperidine"
   },
-  "synonym": [
-    "Pethidine-hameln Solution for Injection 50mg/ml"
-  ],
   "intendedJurisdiction": [
     {
       "coding": [
         {
           "system": "urn:iso:std:iso:3166",
-          "code": "SG",
-          "display": "Singapore"
-        }
-      ]
-    }
-  ],
-  "regulatory": [
-    {
-      "regulatoryAuthority": {
-        "display": "Singapore Health Sciences Authority (HSA)"
-      },
-      "identifier": [
-        {
-          "system": "https://sgtxgnn.yao.care/hsa-license",
-          "value": "SIN14662P"
+          "code": "TW",
+          "display": "Taiwan"
         }
       ]
     }
   ],
   "extension": [
     {
-      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-source",
-      "valueString": "TxGNN Knowledge Graph"
+      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
     }
   ]
 }
