@@ -19,7 +19,7 @@ permalink: /news/allergy/
 
 ### [New allergic diseases centre launched so patients can get optimised treatment across disciplines](https://www.straitstimes.com/singapore/health/new-allergic-diseases-centre-launched-so-patients-can-get-optimised-treatment-across-disciplines)
 
-2026-04-18
+2026-04-19
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-allergic-diseases-centre-launched-so-patients-can-get-optimised-treatment-across-disciplines)
 
